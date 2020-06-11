@@ -13,8 +13,19 @@ body {
   letter-spacing: 0.03em;
 }
 
+.container {
+  width: 1230px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  outline: 2px solid tomato;
+}
+
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* LOGO */
@@ -77,17 +88,34 @@ ul {
 
 .hero {
   background-color: rgba(47, 48, 58, 80%);
+  text-align: center;
 }
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   color: #ffffff;
 
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.3;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+.hero-button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 11px 28px;
+  text-decoration: none;
+
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  min-width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 466px;
 }
 
 /* section */
@@ -197,6 +225,15 @@ ul {
 }
 
 .button.primary {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 11px 28px;
+
+  min-width: 200px;
+  height: 50px;
+  left: 1185px;
+  top: 2764px;
+
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 

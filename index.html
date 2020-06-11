@@ -8,12 +8,16 @@
       href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--навигация + контакты-->
     <header>
-      <nav>
+      <nav class="container">
         <a href="/" class="logo" lang="en"
           ><span class="logo-web">Web</span> Studio</a
         >
@@ -23,7 +27,7 @@
           <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
-      <address>
+      <address class="container">
         <ul class="address">
           <li>
             <a href="mailto:info@devstudio.com" class="link"
@@ -44,55 +48,57 @@
           эффективные решения <br />
           для вашего бизнеса
         </h1>
-        <a href="" class="button primary">Заказать услугу</a>
+        <a href="" class="hero-button">Заказать услугу</a>
       </section>
 
       <!--секция с графическим контентом-->
       <section class="section">
-        <!--этот заголовок спрятать в css-->
-        <h2 class="section-title">Преимущества</h2>
-        <ul class="feature">
-          <li>
-            <figure>
-              <img src="./img/antenna1.svg" alt="antenna 1" />
-              <p class="title"><b>Внимание к деталям</b></p>
-              <figcaption class="text">
-                Идейные соображения, а также начало повседневной работы по
-                формированию позиции.
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="./img/clock1.svg" alt="clock 1" />
-              <p class="title"><b>Пунктуальность</b></p>
-              <figcaption>
-                Задача организации, в особенности же рамки и место обучения
-                кадров влечет за собой.
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="./img/diagram1.svg" alt="diagram 1" />
-              <p class="title"><b>Планирование</b></p>
-              <figcaption>
-                Равным образом консультация с широким активом в значительной
-                степени обуславливает.
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="./img/astronaut1.svg" alt="astronaut 1" />
-              <p class="title"><b>Современные технологии</b></p>
-              <figcaption>
-                Значимость этих проблем настолько очевидна, что реализация
-                плановых заданий.
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
+        <div class="container">
+          <!--этот заголовок спрятать в css-->
+          <h2 class="section-title">Преимущества</h2>
+          <ul class="feature">
+            <li>
+              <figure>
+                <img src="./img/antenna1.svg" alt="antenna 1" />
+                <p class="title"><b>Внимание к деталям</b></p>
+                <figcaption class="text">
+                  Идейные соображения, а также начало повседневной работы по
+                  формированию позиции.
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="./img/clock1.svg" alt="clock 1" />
+                <p class="title"><b>Пунктуальность</b></p>
+                <figcaption>
+                  Задача организации, в особенности же рамки и место обучения
+                  кадров влечет за собой.
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="./img/diagram1.svg" alt="diagram 1" />
+                <p class="title"><b>Планирование</b></p>
+                <figcaption>
+                  Равным образом консультация с широким активом в значительной
+                  степени обуславливает.
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="./img/astronaut1.svg" alt="astronaut 1" />
+                <p class="title"><b>Современные технологии</b></p>
+                <figcaption>
+                  Значимость этих проблем настолько очевидна, что реализация
+                  плановых заданий.
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!--секция чем мы занимаемся-->
