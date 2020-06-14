@@ -28,7 +28,15 @@ ul {
   margin: 0;
 }
 
+/* Header */
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 /* LOGO */
+
 .logo {
   color: var(--title-text-color);
 
@@ -50,7 +58,19 @@ ul {
 
 /* site-nav */
 
+.site-nav {
+  display: flex;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .site-nav .link {
+  display: block;
+  margin-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -70,7 +90,19 @@ ul {
 
 /* address */
 
+.address {
+  display: flex;
+}
+
+.address .item + .item {
+  margin-left: 30px;
+}
+
 .address .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -87,6 +119,7 @@ ul {
 /* HERO */
 
 .hero {
+  margin-bottom: 58px;
   background-color: rgba(47, 48, 58, 80%);
   text-align: center;
 }
@@ -120,7 +153,13 @@ ul {
 
 /* section */
 
+.section {
+  margin-bottom: 94px;
+}
+
 .section-title {
+  margin-top: 0;
+  margin-bottom: 50px;
   color: var(--title-text-color);
 
   font-weight: bold;
@@ -132,6 +171,8 @@ ul {
 /* section feature */
 
 .feature .title {
+  margin-top: 30px;
+  margin-bottom: 10px;
   color: var(--title-text-color);
 
   font-weight: bold;
@@ -140,9 +181,21 @@ ul {
   text-transform: uppercase;
 }
 
+.feature-list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.figure {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /* work */
 
 .work .text {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--primary-white-color);
   background-color: rgba(47, 48, 58, 80%);
 
@@ -155,7 +208,24 @@ ul {
 
 /* team */
 
+.team-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-bottom: 94px;
+}
+
+.team-photo {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.team-card {
+  padding-bottom: 24px;
+}
+
 .team .name {
+  margin-top: 0;
+  margin-bottom: 10px;
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -165,6 +235,8 @@ ul {
 }
 
 .occupation {
+  margin-top: 0;
+  margin-bottom: 16;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -259,7 +331,17 @@ ul {
 
 /* PORTFOLIO */
 
+.portfolio {
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+.portfolio-list {
+  padding-bottom: 33px;
+}
+
 .portfolio-button {
+  margin-bottom: 16px;
   color: var(--title-text-color);
   background-color: #f5f4fa;
 }
@@ -268,6 +350,11 @@ ul {
 .portfolio-button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+
+.portfolio-title {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .examples .link {
@@ -283,12 +370,16 @@ ul {
 }
 
 .examples .text {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.9;
 }
 
 .examples .discription {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--primary-text-color);
   font-size: 18px;
   line-height: 1.5;
