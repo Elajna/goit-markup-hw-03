@@ -17,11 +17,13 @@
   <body>
     <!--навигация + контакты-->
     <header>
-      <div>
-        <nav class="container">
+      <div class="container main-nav">
+        <div class="logo">
           <a href="/" class="logo" lang="en"
-            ><span class="logo-web">Web</span> Studio</a
+            ><span class="logo-web">Web</span>Studio</a
           >
+        </div>
+        <nav>
           <ul class="site-nav">
             <li class="item"><a href="./index.html" class="link">Студия</a></li>
             <li class="item">
@@ -30,7 +32,7 @@
             <li class="item"><a href="" class="link">Контакты</a></li>
           </ul>
         </nav>
-        <address class="container">
+        <address>
           <ul class="address">
             <li class="item">
               <a href="mailto:info@devstudio.com" class="link"
@@ -48,18 +50,20 @@
       <!--список вкладок-->
       <section class="portfolio-list">
         <div class="container">
-          <ul>
-            <li><button type="button" class="portfolio-button">Все</button></li>
-            <li>
+          <ul class="button-list">
+            <li class="item">
+              <button type="button" class="portfolio-button">Все</button>
+            </li>
+            <li class="item">
               <button type="button" class="portfolio-button">Веб-сайты</button>
             </li>
-            <li>
+            <li class="item">
               <button type="button" class="portfolio-button">Приложения</button>
             </li>
-            <li>
+            <li class="item">
               <button type="button" class="portfolio-button">Дизайн</button>
             </li>
-            <li>
+            <li class="item">
               <button type="button" class="portfolio-button">Маркетинг</button>
             </li>
           </ul>
@@ -72,7 +76,7 @@
           <!--заголовок спрятать в цсс-->
           <h1 class="portfolio-title">Наши работы</h1>
           <ul class="examples">
-            <li>
+            <li class="examples-item">
               <a href="" class="link"
                 ><img src="./img/techno.jpg" alt="team photo" />
                 <h2 class="examples-title">Технокряк</h2>
@@ -84,7 +88,7 @@
                 </p>
               </a>
             </li>
-            <li>
+            <li class="examples-item">
               <a href="" class="link"
                 ><img src="./img/poster.jpg" alt="sport photo" />
                 <h2 class="examples-title">Постер New Orlean vs Golden Star</h2>
@@ -96,7 +100,7 @@
                 </p>
               </a>
             </li>
-            <li>
+            <li class="examples-item">
               <a href="" class="link"
                 ><img src="./img/seafood.jpg" alt="seafood photo" />
                 <h2 class="examples-title">Ресторан Seafood</h2>
@@ -108,7 +112,7 @@
                 </p>
               </a>
             </li>
-            <li>
+            <li class="examples-item">
               <a href="" class="link"
                 ><img src="./img/prime.jpg" alt="headphones photo" />
                 <h2 class="examples-title">Проект Prime</h2>
@@ -120,7 +124,7 @@
                 </p>
               </a>
             </li>
-            <li>
+            <li class="examples-item">
               <a href="" class="link"
                 ><img src="./img/boxes.jpg" alt="boxes photo" />
                 <h2 class="examples-title">Проект Boxes</h2>
@@ -132,7 +136,7 @@
                 </p>
               </a>
             </li>
-            <li>
+            <li class="examples-item">
               <a href="" class="link"
                 ><img src="./img/inspiration.jpg" alt="tv photo" />
                 <h2 class="examples-title">Inspiration has no Borders</h2>
@@ -144,7 +148,7 @@
                 </p>
               </a>
             </li>
-            <li>
+            <li class="examples-item">
               <a href="" class="link"
                 ><img src="./img/limitededition.jpg" alt="photo of book" />
                 <h2 class="examples-title">Издание Limited Edition</h2>
@@ -156,7 +160,7 @@
                 </p>
               </a>
             </li>
-            <li>
+            <li class="examples-item">
               <a href="" class="link"
                 ><img src="./img/lab.jpg" alt="text photo" />
                 <h2 class="examples-title">Проект LAB</h2>
@@ -168,7 +172,7 @@
                 </p>
               </a>
             </li>
-            <li>
+            <li class="examples-item">
               <a href="" class="link"
                 ><img src="./img/business.jpg" alt="laptpo photo" />
                 <h2 class="examples-title">Growing Business</h2>
