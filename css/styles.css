@@ -6,6 +6,7 @@
 }
 
 body {
+  padding-bottom: 16px;
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
 
@@ -27,6 +28,10 @@ ul {
 }
 
 /* Header */
+
+.page-header {
+  margin-bottom: 36px;
+}
 
 .main-nav {
   display: flex;
@@ -120,6 +125,8 @@ ul {
 
 .hero {
   margin-bottom: 58px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: rgba(47, 48, 58, 80%);
   text-align: center;
 }
@@ -297,6 +304,7 @@ ul {
 
 .footer-section {
   background-color: #2f303a;
+  padding-bottom: 5px;
 }
 
 .footer {
